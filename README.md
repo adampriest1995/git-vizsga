@@ -1,5 +1,6 @@
 git init
 git add .
 git status
-git add app.js
-git add style.css
+git commit
+git branch console
+git checkout console
