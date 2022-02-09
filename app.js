@@ -7,6 +7,7 @@ const audio = document.getElementById("audio");
 const title = document.getElementById("title");
 const cover = document.getElementById("cover");
 
+
 //Zenék címei
 const songs = ["hey", "summer", "ukulele", "river"];
 
@@ -95,6 +96,4 @@ prevBtn.addEventListener("click", prevSong);
 //Ha a zene végetért lépjen a következőre
 audio.addEventListener("ended", nextSong);
 
-window.addEventListener('load', function () {
-    console.log('A változás siekresen rögzítve!')
-  })
+console.log("Változtatások rögzítése");
